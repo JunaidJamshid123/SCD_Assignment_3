@@ -7,7 +7,7 @@
   "main": "run.js",
   "scripts": {
     "start": "node run.js",
-    "test": "your-test-command",
+    "test": "jest",
     "build-docs": "your-build-docs-command"
   
   },
