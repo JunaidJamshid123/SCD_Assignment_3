@@ -13,6 +13,6 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Run Dependabot
-        uses: github/dependabot-preview@v0.135.0
+        uses: dependabot/dependabot-preview@v0.163.0
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
